@@ -5,7 +5,7 @@ let myCourse = ["html", "css", "javascript", "design"];
 
   if((myCourse.length % 2) === 0){
       const evenNumber = [];
-      for(let i = 0; i <= 200; i++){
+      for(let i = 1; i <= 200; i++){
           if(i % 2 === 0) {
               evenNumber.push(i);
           }
@@ -13,7 +13,7 @@ let myCourse = ["html", "css", "javascript", "design"];
       console.log(evenNumber);
   } else{
       const oddNumber = [];
-      for(let i = 0; i <= 200; i++){
+      for(let i = 1; i <= 200; i++){
           if(i % 2 !== 0){
               oddNumber.push (i);
           }
