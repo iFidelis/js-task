@@ -1,6 +1,3 @@
-let myName = "iFidelis";
-console.log("My Name is " + myName)
-
 let myCourse = ["html", "css", "javascript", "design"];
 
   if((myCourse.length % 2) === 0){
